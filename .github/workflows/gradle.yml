@@ -1,10 +1,10 @@
 #comment1
 name: CI
 on:
-  push:
-    branches: [ master ]
+  #push:
+    #branches: [ workitem ]
   pull_request:
-    branches: [ master ]
+    branches: [ workitem ]
 jobs:
   build-without-cache:
     runs-on: ubuntu-latest
